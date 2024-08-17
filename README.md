@@ -10,3 +10,5 @@ Tags can have attributes that provide additional information about an element. F
 # Forms and Inputs: 
 HTML forms are crucial for user interaction on the web. The <form> tag, combined with various input types like text, password, checkbox, radio button, and more, allows users to submit data to a server.
 
+![Screenshot 2024-08-17 205934](https://github.com/user-attachments/assets/60394e2b-efd9-47f9-bfec-5143d143af97)
+![Screenshot 2024-08-17 205948](https://github.com/user-attachments/assets/47ebe89f-4327-4edd-abd8-159efc3c4419)
