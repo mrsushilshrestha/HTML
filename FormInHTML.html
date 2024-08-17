@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form In HTMl</title>
+  </head>
+  <body>
+    <table width="35%" border="">
+      <tr bgcolor="#6b8e99">
+        <td>
+          <form method="post" action="">
+            <input
+              type="text"
+              name="FirstName"
+              placeholder="First Name"
+              size="30"
+              required=""
+            /><br /><br />
+            <input
+              type="text"
+              name=" LastName"
+              placeholder="last Name"
+              size="30"
+              required=""
+            /><br />
+            <br />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Email"
+              size="30"
+            /><br />
+            <br />
+            <input type="date" name="date" /><br />
+            <br />
+
+            <p>
+              <label
+                ><input
+                  type="radio"
+                  name="Gender"
+                  value="male"
+                  checked=""
+                />Male</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="Gender"
+                  value="Female"
+                />Female</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="Gender"
+                  value="others"
+                />Others</label
+              >
+            </p>
+            <p>
+              Nationality
+
+              <select>
+                <option>Nepal</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Others</option>
+              </select>
+            </p>
+
+            <p>
+              <label
+                ><input
+                  type="checkbox"
+                  name="Qualification"
+                  value="SEE"
+                />SEE</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="Qualification"
+                  value="+12"
+                />+12</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="Qualification"
+                  value="Bachelor"
+                />Bechelor</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="Qualification"
+                  value="Master"
+                />master</label
+              >
+            </p>
+
+            <p>Upload your Photo</p>
+            <input type="file" name="Photo" />
+
+            <p>Enter your Message</p>
+            <textarea rows="20" cols="20"></textarea>
+
+            <p>
+              <input type="submit" />
+              <input type="reset" />
+            </p>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
